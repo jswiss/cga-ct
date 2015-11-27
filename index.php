@@ -4,15 +4,17 @@
 	<meta charset="UTF-8">
 	<title>South Sudan Cash Transfers</title>
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/materialize.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<script src="./assets/js/materialize.js"></script>
+	<script src="./assets/js/script.js"></script>
 </head>
 <body>
 	
 	<header>
 		<div id="top-menu">
 			<ul id="header-menu">
+			<!-- Should these be accordion drop menus, or just redirect to pages? -->
 				<li class="menu-items"><a href="">Home</a></li>
 				<li class="menu-items"><a href="">Transfers Dashboard</a></li>
 				<li class="menu-items"><a href="">National Summary</a></li>
@@ -21,12 +23,28 @@
 				<li class="menu-items"><a href="">States</a></li>
 				<li class="menu-items"><a href="">Documents and Resources</a></li>
 			</ul>
+			<div id="login">
+				
+			</div>
+			<div id="logged-in">
+				
+			</div>
 		</div>
 	</header>
 
-	
+	<div id="main-container">
+		<div id="left">
+			<div id="introduction">
+				<h1 id="intro-title">Introduction</h1>
+				<p id="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis optio, quis debitis alias commodi earum quasi expedita harum vero maxime temporibus necessitatibus molestiae exercitationem sit dolorum labore molestias minima deserunt.</p>
+			</div>
+		</div>
+		<div id="right">
+			<div id="transfer-dates">
+				
+			</div>
+		</div>
+	</div>
 
-	<!-- Latest compiled and minified JavaScript -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 </body>
 </html>

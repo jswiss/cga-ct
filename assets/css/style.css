@@ -1,3 +1,8 @@
-.menu-items {
-	display: inline;
+@font-face {
+	font-family: 'Roboto';
+	src: url('../font/roboto/Roboto-Bold.ttf');
+	src: url('../font/roboto/Roboto-Light.ttf');
+	src: url('../font/roboto/Roboto-Medium.ttf');
+	src: url('../font/roboto/Roboto-Regular.ttf');
+	src: url('../font/roboto/Roboto-Thin.ttf');
 }
